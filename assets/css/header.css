@@ -1,0 +1,35 @@
+/* Styles for Sticky Header */
+.main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #edd5b0; /* เปลี่ยนสีพื้นหลังตามต้องการ */
+    padding: 10px 0;
+    z-index: 1000; /* ให้แน่ใจว่า header อยู่บนสุด */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* ใส่เงาเพื่อความสวยงาม */
+}
+
+body {
+    padding-top: 70px; /* เพิ่ม padding ที่ด้านบนเพื่อไม่ให้เนื้อหาโดน header ทับ */
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 50px; /* ปรับขนาดโลโก้ */
+    margin-right: 15px; /* เพิ่มช่องว่างระหว่างโลโก้และชื่อเว็บ */
+}
+
+.site-name {
+    color: #116278; /* สีข้อความ */
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
